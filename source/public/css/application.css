@@ -1,0 +1,43 @@
+body {
+  padding-top: 30px;
+}
+
+.container {
+  margin: 20px auto;
+  width: 720px;
+  padding: 0px 20px 20px 20px;
+  border: 1px dotted black;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  padding: 10px;
+}
+
+#logout {
+  background-color: #666;
+  color: white;
+}
+
+.container form {
+  padding: 2%;
+  background: #d1d1d1;
+  border: 3px solid rgba(255,255,255,0.5);
+  margin: 2% 0;
+}
+
+.container input{
+  padding: 5px;
+  border: 1px solid rgba(0,0,0,0.2);
+  -webkit-box-shadow:  inset 1px 1px 3px rgba(0,0,0,0.4);
+}
+
+.container input[type="submit"] {
+  background-color: #666;
+  color: white;
+  border: 1px solid white;
+  border-width: 1px 0 0 1px;
+}
