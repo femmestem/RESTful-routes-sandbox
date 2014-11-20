@@ -17,7 +17,7 @@ class User < ActiveRecord::Base
 
   def create
     @user = User.new(params[:user])
-    if there is a :password field in the :users table migration
+    # if there is a :password field in the :users table migration
     @user.password = params[:password]
     @user.save!
   end
